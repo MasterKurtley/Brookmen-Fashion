@@ -46,14 +46,23 @@ p {
 
 .content {
   margin-left: 125px;
+  overflow: auto;
 }
 .content img {
-  width: 31%;
-  float: left;
-/*  margin-left: 15%;
-  margin-top: 6%;*/
+  width: 100%;
 }
-
+.content .image {
+  width: 30%;
+  float: left;
+}
+.description {
+  width: 70%;
+  float: left;
+}
+.p-space {
+  padding-left: 10px;
+  text-transform: lowercase;
+}
 
 
 /*//////NAVBAR////*/
