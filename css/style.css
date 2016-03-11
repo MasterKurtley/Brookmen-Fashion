@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Sacramento|Julius+Sans+One|Gruppo);
 
 
+/*//////STYLING //////*/
 
 body {
   background: url(../images/texturewhite.jpg) center;
@@ -9,5 +10,81 @@ body {
 
 h1 {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 5em;
+  font-size: 2.0em;
+  text-align: center;
+  line-height: 30px;
 }
+
+h1 span {
+  border-left: 3px solid #000;
+  font-size: 50px;
+  position: relative;
+  left: -5px;
+  top: 3px;
+}
+
+
+.lookoftheday {
+  font-size: 1.5em;
+  line-height: 60px;
+}
+
+
+p {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+
+
+
+/*/////LAYOUT/////*/
+
+.wrapper {
+  width: 960px;
+  margin: 0;
+}
+
+.content {
+  margin-left: 125px;
+}
+.content img {
+  width: 31%;
+  float: left;
+/*  margin-left: 15%;
+  margin-top: 6%;*/
+}
+
+
+
+/*//////NAVBAR////*/
+
+#navbar {
+  position: fixed;
+  top: 100;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+}
+
+
+
+#navbar nav a {
+  display: block;
+  width: 13%;
+  margin: 0;
+  padding: 22px 0;
+  color: black;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  text-decoration: none;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+
+
+
+
+
